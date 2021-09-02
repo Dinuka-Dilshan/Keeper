@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body{
     margin: 0;
@@ -26,6 +27,10 @@ body{
     color: white;
 }
 
+.text-gray{
+   color:  #ccc;
+}
+
 .justify-content-center{
     justify-content: center;
 }
@@ -37,6 +42,38 @@ body{
     padding: 1rem;
 }
 
+.pb-1{
+    padding-bottom: 1rem;
+}
+
 .fs-1{
     font-size: 2rem;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.shadow-bottom{
+    box-shadow: 0px 5px 10px 0px rgba(53, 53, 53, 0.15);
+}
+
+.font-normal{
+    font-family: "Montserrat", sans-serif;
 }
